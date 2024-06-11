@@ -1,0 +1,39 @@
+.card {
+    width: 30%;
+    height: 40%;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+    
+.content {
+    width: 100%;
+    height: 100%;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.414);
+    border-radius: 1rem;
+    overflow: auto;
+}
+
+.content::-webkit-scrollbar {
+    display: none;
+}
+
+.content p {
+    font-size: 2.5rem;
+    text-align: center;
+    padding: 1rem;
+}
+
+button {
+    border: none;
+    background-color: #2862c8;
+    height: 3rem;
+    width: 8rem;
+    margin-top: 0.5rem;
+    box-shadow: 1px 5px 5px rgba(0, 0, 0, 0.414);
+    color: #eaeaea;
+    font-size: 1rem;
+    border-radius: 1rem;
+}
