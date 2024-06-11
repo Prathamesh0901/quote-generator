@@ -1,15 +1,19 @@
-import Card from './Card'
+import { BrowserRouter as Router,  Routes, Route } from 'react-router-dom'
+import HomePage from './HomePage';
+import SavedQuotes from './SavedQuotes';
 import './App.css'
 
 function App() {
 
   return (
-    <div className='container'>
-
-      <h1>Quote of the Day</h1>
-      <Card></Card>
-
-    </div>
+    <>
+      <Router>
+        <Routes>
+          <Route exact path='/' Component={HomePage}></Route>
+          <Route path='/savedQuotes' Component={SavedQuotes}></Route>
+        </Routes>
+      </Router>
+    </>
   )
 }
 

@@ -1,20 +1,18 @@
-*{
-    margin: 0;
-}
-
-.container {
+.quotes {
     height: 100vh;
-    background-color: #6dcfe8;
     width: 100vw;
-    color: #eaeaea;
+    background-color: #6dcfe8;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
-h1 {
+.quotes ul {
+    width: 60%;
+}
+
+.quotes ul li {
     color: #eaeaea;
-    font-size: 4rem;
-    text-shadow: 1px 1px black;
+    font-size: 1.5rem;
 }
